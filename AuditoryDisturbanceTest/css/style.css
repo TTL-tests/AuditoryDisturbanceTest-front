@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    color:#333;
+}
+#html5Loader{
+    top:0;
+    left:0;
+    background:#00406E;
+    background:-webkit-gradient(radial, 50% 50%, 0, 50% 50%, 960, from(#1B8EE0), to(#00406E)) no-repeat #00406E;
+    background: -moz-radial-gradient(50% 50% 0deg,ellipse farthest-corner, #1B8EE0, #00406E, #00406E 170%);
+    background: -o-radial-gradient(50% 50%, #1B8EE0, #00406E);
+    margin:0;
+    position:fixed;
+}
+#html5Loader .fallback {
+    top:50%;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    color:white;
+    vertical-align: middle;
+    display: block;
+    font-style: normal;
+    font-family: "Lobster Two";
+    font-size:100px;
+}
+div#wrapper > * {
+    width:400px;
+}
