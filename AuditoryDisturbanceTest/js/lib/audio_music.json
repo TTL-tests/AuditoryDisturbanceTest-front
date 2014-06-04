@@ -41,6 +41,231 @@
                 }
 
             }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_6.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_7.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_8.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_9.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_10.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_11.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_12.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_13.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_14.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_15.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_16.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_17.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_18.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_19.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_20.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_21.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_22.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_23.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_24.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_25.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_26.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_27.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_28.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_29.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_30.wav"
+                }
+
+            }
         }
 
     ]
