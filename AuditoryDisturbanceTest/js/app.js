@@ -18,4 +18,10 @@ function playSound() {
         numberSounds[numberSequence[0]-1].play();
     }
 
+    playMusicSound = function () {
+        musicSounds[0].play();
+    }
+
+    setTimeout (playMusicSound, 4000);
+
 }

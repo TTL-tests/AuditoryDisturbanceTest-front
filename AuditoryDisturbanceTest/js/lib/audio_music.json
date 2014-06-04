@@ -1,0 +1,47 @@
+{
+    "files": [
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_1.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_2.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_3.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_4.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/musa_5.wav"
+                }
+
+            }
+        }
+
+    ]
+}
