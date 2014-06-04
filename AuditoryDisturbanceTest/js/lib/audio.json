@@ -4,7 +4,31 @@
             "type":"AUDIO",
             "sources": {
                 "wav": {
-                    "source":"js/lib/Stimuli/Kuusi.wav"
+                    "source":"js/lib/Stimuli/Yksi.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/Kaksi.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/Kolme.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/Nelja.wav"
                 }
 
             }
@@ -13,7 +37,16 @@
             "type":"AUDIO",
             "sources": {
                 "wav": {
-                    "source":"js/lib/Stimuli/Kolme.wav"
+                    "source":"js/lib/Stimuli/Viisi.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/Kuusi.wav"
                 }
             }
         },
@@ -21,7 +54,7 @@
             "type":"AUDIO",
             "sources": {
                 "wav": {
-                    "source":"js/lib/Stimuli/Kaksi.wav"
+                    "source":"js/lib/Stimuli/Seitseman.wav"
                 }
             }
         },
@@ -29,7 +62,15 @@
             "type":"AUDIO",
             "sources": {
                 "wav": {
-                    "source":"js/lib/Stimuli/Nelja.wav"
+                    "source":"js/lib/Stimuli/Kahdeksan.wav"
+                }
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/Yhdeksan.wav"
                 }
             }
         }

@@ -4,14 +4,19 @@
     }
 });*/
 
+
+var numberSounds = [];
+
 $.html5Loader({
     filesToLoad:"js/lib/audio.json",
     onComplete: function () {
         console.log("All the assets are loaded!");
+        playSound();
     },
     onElementLoaded: function ( obj, elm ) {
         // if(!~$.inArray(obj.type,["TEXT","SCRIPT","CSS"])) {
-        $("#wrapper").append(elm);
+        //$("#wrapper").append(elm);
+        numberSounds.push(elm);
         console.log("wow");
         //}
     }//,
