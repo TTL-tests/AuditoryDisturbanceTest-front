@@ -7,35 +7,37 @@
 
 var numberSounds = [];
 var musicSounds = [];
+var wordSounds = [];
 
 $.html5Loader({
     filesToLoad:"js/lib/audio_numbers.json",
     onComplete: function () {
-        console.log("All the assets are loaded!");
-        //playSound();
+
     },
     onElementLoaded: function ( obj, elm ) {
-        // if(!~$.inArray(obj.type,["TEXT","SCRIPT","CSS"])) {
         //$("#wrapper").append(elm);
         numberSounds.push(elm);
-        console.log("wow");
-        //}
-    }//,
-    //onUpdate: loaderAnimation.update
+    }
 });
 
 $.html5Loader({
     filesToLoad:"js/lib/audio_music.json",
     onComplete: function () {
-        console.log("All the assets are loaded!");
-        playSound();
     },
     onElementLoaded: function ( obj, elm ) {
-        // if(!~$.inArray(obj.type,["TEXT","SCRIPT","CSS"])) {
-        //$("#wrapper").append(elm);
         musicSounds.push(elm);
-        console.log("wow");
-        //}
-    }//,
-    //onUpdate: loaderAnimation.update
+
+    }
+});
+
+$.html5Loader({
+    filesToLoad:"js/lib/audio_word.json",
+    onComplete: function () {
+        console.log("All the assets are loaded!");
+        playTestSounds();
+    },
+    onElementLoaded: function ( obj, elm ) {
+        wordSounds.push(elm);
+    }
+
 });

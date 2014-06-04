@@ -1,0 +1,47 @@
+{
+    "files": [
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/sana_1.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/sana_2.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/sana_3.wav"
+                }
+
+            }
+        },        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/sana_4.wav"
+                }
+
+            }
+        },
+        {
+            "type":"AUDIO",
+            "sources": {
+                "wav": {
+                    "source":"js/lib/Stimuli/sana_5.wav"
+                }
+
+            }
+        }
+
+    ]
+}
