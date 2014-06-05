@@ -7,34 +7,41 @@
 var app = {};
 
 app.start = function () {
-    var numberSequence = generateMockNumberSequence();
-    
+    var numberSequence = generateMockNumberSequence(180);
+
     playTestSounds(numberSequence);
 };
 
-function generateMockNumberSequence() {
+function generateMockNumberSequence(skipNumberCount) {
     var numberSequence = [];
-    var currentNumber = 1;
-    var skipNumberCount = 180;
-    var skipNumber = 4;
+    var currentNumber = 1;  // Start from 1
+    var skipNumber = 4;     // The first skipped number
 
-    function nextPossibleSkipNumber(number) {
+    function isAllowedSkipNumber(number) {
+        if (number == 1 || number == 8 || number == 9) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function firstNextPossibleSkipNumber(number) {
         number += 4;
         if (number > 9) number -= 9;
-        if (number == 1 || number == 8 || number == 9) {
+        if (isAllowedSkipNumber(number) == false) {
             number = 2;
         }
         return number;
     }
 
-    function calcPossibleSkipNumbers(fromNumber) {
+    function fourNextSkipNumbers(fromNumber) {
         var possibleNumbers = [];
 
-        possibleNumbers[0] = nextPossibleSkipNumber(fromNumber);
+        possibleNumbers[0] = firstNextPossibleSkipNumber(fromNumber);
 
         for (var i = 1; i < 4; i++) {
             var nextNumber =  possibleNumbers[i-1] + 1;
-            if (nextNumber == 1 || nextNumber == 8 || nextNumber == 9) {
+            if (isAllowedSkipNumber(nextNumber) == false) {
                 nextNumber = 2;
             }
             possibleNumbers[i] = nextNumber;
@@ -53,7 +60,7 @@ function generateMockNumberSequence() {
             nextNumber++;
             if (nextNumber == 10) nextNumber = 1;
 
-            var nextSkipNumbers = calcPossibleSkipNumbers(nextNumber);
+            var nextSkipNumbers = fourNextSkipNumbers(nextNumber);
             skipNumber = nextSkipNumbers[Math.floor(Math.random() * 4)];
 
             skipNumberCount--;
