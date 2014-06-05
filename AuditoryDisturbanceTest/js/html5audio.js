@@ -34,7 +34,7 @@ $.html5Loader({
     filesToLoad:"js/lib/audio_word.json",
     onComplete: function () {
         console.log("All the assets are loaded!");
-        playTestSounds();
+        app.start();
     },
     onElementLoaded: function ( obj, elm ) {
         wordSounds.push(elm);
